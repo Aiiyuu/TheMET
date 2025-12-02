@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){var e=document.getElementById("nav-btn"),t=document.getElementById("dropdown-menu"),n=document.querySelector(".header"),o=document.getElementById("header-ribbons");e.addEventListener("click",function(){e.classList.toggle("navbar__navigation-button--active"),o.classList.toggle("header__ribbons--active"),t.classList.toggle("navbar__menu--active"),n.classList.toggle("fixed"),document.body.classList.toggle("block-scrolling")})});
+//# sourceMappingURL=index.0cecf200.js.map
