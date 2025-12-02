@@ -1,6 +1,6 @@
 'use strict';
 
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function() {
   const NAV_BTN = document.getElementById('nav-btn');
   const DROPDOWN_MENU = document.getElementById('dropdown-menu');
   const HEADER = document.querySelector('.header');
