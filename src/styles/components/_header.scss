@@ -5,7 +5,7 @@
   width: 100vw;
   height: 568px;
 
-  background-image: url('../images/img.png');
+  background-image: url("../images/img.png");
   background-position: center;
   background-size: cover;
   z-index: 10;
@@ -49,7 +49,7 @@
     }
   }
 
-  &__warpper {
+  &__wrapper {
     max-width: $content-max-width;
     margin-inline: auto;
   }
@@ -89,9 +89,4 @@
       line-height: 80px;
     }
   }
-}
-
-.fixed {
-  position: fixed;
-  top: 0;
 }
